@@ -40,3 +40,23 @@ p{
     background: #93cb52;
     border-radius: 5px;
 }
+
+#showcase{
+    background: #333 url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Over lay */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
