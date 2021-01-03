@@ -16,6 +16,14 @@ p{
 .text-primary{
     color: #93cb52;
 }
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -40,7 +48,6 @@ p{
     background: #93cb52;
     border-radius: 5px;
 }
-
 #showcase{
     background: #333 url(../img/showcase.jpg) no-repeat center center/cover;
     height: 100vh;
@@ -54,9 +61,110 @@ p{
     align-items: center;
     height: 100%;
     padding: 0 2rem;
-    /* Over lay */
+    /* Overlay */
     position: absolute;
     top: 60px;
+    bottom: 0;
+    right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.py-1{
+    padding: 1.5rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.p-1{
+    padding: 1.5rem ;
+}
+.p-2{
+    padding: 2rem ;
+}
+.p-3{
+    padding: 3rem ;
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+
+}
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 4px;
+}
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+.btn:hover{
+    background: #7ab436;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+}
+.items{
+    display: flex;
+    padding: 1rem;
+}
+.item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+#what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#who {
+    display: flex;
+
+}
+#who div{
+    flex:1;
+}
+#who .who-image{
+    background: url(../img/people.jpg) no-repeat center center/cover ;
+}
+.list{
+    margin:0.5rem 0;
+    list-style: none;
+}
+.list li{
+    margin:0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+#clients .items{
+    display: flex;
+}
+#clients .items img{
+    display: block;
+    margin: auto;
+    width: 60%;
 }
