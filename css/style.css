@@ -63,7 +63,7 @@ p{
     padding: 0 2rem;
     /* Overlay */
     position: absolute;
-    top: 60px;
+    top: 61px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -113,6 +113,10 @@ p{
 }
 .btn-dark{
     background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background: #93cb52;
     color: #fff;
 }
 .btn:hover{
@@ -167,4 +171,21 @@ p{
     display: block;
     margin: auto;
     width: 60%;
+}
+#contact{
+    display: flex;
+}
+#contact .map,#contact .contact-form{
+    flex: 1;
+}
+#contact .contact-form .form-group{
+    margin: 0.7rem;
+}
+#contact .contact-form .label{
+    display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding:  0.5rem;
 }
