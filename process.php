@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: http://edgeledger.net/success.html');
+    header('Location: http://https://objective-morse-c6174c.netlify.app/success.html');
   }
