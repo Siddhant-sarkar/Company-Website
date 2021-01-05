@@ -8,7 +8,7 @@ function initMap() {
   });
     const marker=new google.maps.Marker({position:loc ,map:map});
 }
-$('#navbar a, .btn').on('click', function(event) {
+$('#navbar a').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
   
